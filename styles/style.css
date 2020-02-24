@@ -1,0 +1,134 @@
+.page {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    display: flex;
+    align-items: center;
+    /* выше установили ограничения для секции */
+}
+
+.logo {
+    width: 183px;
+    height: 32px;
+    background-image: url(../images/logo.svg);
+    z-index: 2;
+    position: absolute;
+}
+
+.logo_place_header{
+    top: 30px;
+    left: 64px;
+}
+
+.header__title{
+    width:730px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bolder;
+    margin-left: 64px;
+    z-index: 1;
+}
+
+.header__subtitle{
+    width: 388px;
+    position: absolute;
+    left: 64px;
+    bottom:30px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    z-index: 3;
+}
+
+.header__link{
+    font-size: 18px;
+    text-decoration: none;
+    color: #2f80ed;
+}
+
+.header__main-illustration{
+    width:765px;
+    height: 608px;
+    background-image: url(../images/two_again.png);
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.header__squre-pic{
+    width: 568px;
+    height: 568px;
+    background-color: #2f80ed;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    z-index: -1;    
+}
+
+.description {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.two-columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-columns__brief{
+    width: 175px;
+    color: #2f80ed;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.two-columns__main-text{
+    width: 80%;
+    min-width: 784px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.two-columns__paragraph{
+    margin: 30px 0 0;
+}
+
+.two-columns__paragraph:first-of-type {
+    margin-top: 0;
+}
+
+.two-columns__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+.two-columns__span-accent{
+    line-height: 34px;
+    font-size: 24px;
+    font-weight:bolder;  
+}
+
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+}
