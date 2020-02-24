@@ -54,6 +54,7 @@
 .header__link{
     font-size: 18px;
     text-decoration: none;
+    z-index: 1;
     color: #2f80ed;
 }
 
@@ -179,12 +180,13 @@
 .feinman{
     position: relative;
     height:790px;
-    margin: 100px auto;
+    margin-top: 100px;
+    margin-bottom: 0;
+    background-color: #f2f2f2;
     background-image: url(../images/feinman.png);
     background-size: 867px 637px;
     background-position: left bottom;
     background-repeat: no-repeat ;
-
 }
 
 .feinman__title{
@@ -216,10 +218,45 @@
     color: #000;
 }
 
+.kaufman{
+    background-color: #000;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-title_theme_dark{
+    border:1px solid red;
+    color:white;
+    z-index: 1;
+    }
+
+.section-subtitle_theme_dark{
+    border:1px solid red;
+    color:white;
+    z-index: 1;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
     width: 200px;
     color: white;
     margin-right: 0;
     margin-top: 80px;
+    z-index: 1;
 }
+
+.kaufman__triangle{
+    border:1px solid red;
+    position: absolute;
+    top: 0;
+    height: 877px;
+    width: 877px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/triangle.svg);
+    right: -210px;
+    z-index: 0;
+}
+
