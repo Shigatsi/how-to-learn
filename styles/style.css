@@ -10,6 +10,7 @@
 }
 
 .header {
+    border:1px solid red;
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
@@ -219,7 +220,7 @@
 }
 
 .kaufman{
-    background-color: #000;
+    background-color: #1f1f1f;
     padding-top: 90px;
     padding-bottom: 90px;
     overflow: hidden;
@@ -259,4 +260,26 @@
     right: -210px;
     z-index: 0;
 }
+
+.footer{
+    border:1px solid red;
+    min-height: 350px;
+    background-color: #1f1f1f;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer__columns{
+    width: 90%;
+    display: flex;
+    flex-basis: 711px;
+    border:1px solid red;
+}
+
+.footer__column{
+    border:1px solid red; 
+    display: flex;
+    justify-content: space-between;
+}
+
 
