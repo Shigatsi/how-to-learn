@@ -124,9 +124,6 @@
     font-weight:bolder;  
 }
 
-.digits{
-}
-
 .section-title {
     margin: auto;
     width: 60%;
@@ -177,6 +174,46 @@
 
 .table__text:last-of-type{
     margin-bottom:0px;
+}
+
+.feinman{
+    position: relative;
+    height:790px;
+    margin: 100px auto;
+    background-image: url(../images/feinman.png);
+    background-size: 867px 637px;
+    background-position: left bottom;
+    background-repeat: no-repeat ;
+
+}
+
+.feinman__title{
+    margin: 0 auto;
+    width: 648px;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+.feinman__subtitle{
+    margin-top: 70px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.feinman__link{
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #000;
 }
 
 /* и элемента с модификатором вида ключ-значение */
