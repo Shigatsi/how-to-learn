@@ -266,7 +266,6 @@
 }
 
 .footer{
-    border:1px solid red;
     min-height: 350px;
     background-color: #1f1f1f;
     padding-top: 60px;
@@ -275,24 +274,24 @@
 
 .footer__columns{
     margin: auto;
+    min-height: 350px;
     width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    flex-basis: 711px;
     color: #fff;
-    border:1px solid red;
 }
 
 .footer__column{
-    border:1px solid red; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
+.footer__column_content_copyright{
+    justify-content: space-between;
+    flex-basis: 711px;
+}
 .logo_place_footer{
-    border:1px solid red; 
     background-image: url(../images/logo_white.svg);
 }
 
