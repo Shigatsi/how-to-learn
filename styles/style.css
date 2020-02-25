@@ -10,26 +10,28 @@
 }
 
 .header {
-    border:1px solid red;
+    position: relative;
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
     display: flex;
     align-items: center;
+    background-color: #f2f2f2;
     /* выше установили ограничения для секции */
 }
 
 .logo {
     width: 183px;
     height: 32px;
-    background-image: url(../images/logo.svg);
-    z-index: 2;
-    position: absolute;
+    z-index: 4;
+    
 }
 
 .logo_place_header{
     top: 30px;
     left: 64px;
+    position: absolute;
+    background-image: url(../images/logo.svg);
 }
 
 .header__title{
@@ -38,7 +40,7 @@
     font-size: 102px;
     font-weight: bolder;
     margin-left: 64px;
-    z-index: 1;
+    z-index: 3;
 }
 
 .header__subtitle{
@@ -55,7 +57,7 @@
 .header__link{
     font-size: 18px;
     text-decoration: none;
-    z-index: 1;
+    z-index: 4;
     color: #2f80ed;
 }
 
@@ -67,6 +69,8 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    z-index: 2;
+
 }
 
 .header__squre-pic{
@@ -76,7 +80,7 @@
     position: absolute;
     top: 64px;
     right: 0;
-    z-index: -1;    
+    z-index: 1;    
 }
 
 .description {
@@ -228,14 +232,14 @@
 }
 
 .section-title_theme_dark{
-    border:1px solid red;
     color:white;
+    position: relative;
     z-index: 1;
     }
 
 .section-subtitle_theme_dark{
-    border:1px solid red;
     color:white;
+    position: relative;
     z-index: 1;
 }
 
@@ -245,11 +249,10 @@
     color: white;
     margin-right: 0;
     margin-top: 80px;
-    z-index: 1;
+    z-index: 1;  /*тык*/
 }
 
 .kaufman__triangle{
-    border:1px solid red;
     position: absolute;
     top: 0;
     height: 877px;
@@ -258,7 +261,7 @@
     background-position: center;
     background-image: url(../images/triangle.svg);
     right: -210px;
-    z-index: 0;
+    z-index: 0;  /*тык*/
 }
 
 .footer{
@@ -270,16 +273,62 @@
 }
 
 .footer__columns{
+    margin: auto;
     width: 90%;
     display: flex;
+    justify-content: space-between;
+    align-items: stretch;
     flex-basis: 711px;
+    color: #fff;
     border:1px solid red;
 }
 
 .footer__column{
     border:1px solid red; 
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
+.logo_place_footer{
+    border:1px solid red; 
+    background-image: url(../images/logo_white.svg);
+}
+
+.footer__author{
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.footer__column-heading{
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.footer__column-links{
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.footer__link{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__icons{
+    width: 16px;
+    height:16px;
+    padding-right: 10px;
+}
 
