@@ -183,8 +183,8 @@
 }
 
 .feinman{
-    position: relative;
     height:790px;
+    padding-top: 100px;
     margin-top: 100px;
     margin-bottom: 0;
     background-color: #f2f2f2;
@@ -195,6 +195,7 @@
 }
 
 .feinman__title{
+
     margin: 0 auto;
     width: 648px;
     text-align: center;
