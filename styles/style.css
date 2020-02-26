@@ -1,3 +1,8 @@
+
+h1 {
+    border: 1px solid red;
+}
+
 .page {
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
@@ -183,6 +188,7 @@
 }
 
 .feinman{
+    position: relative;
     height:790px;
     padding-top: 100px;
     margin-top: 100px;
@@ -327,7 +333,7 @@
     color: #fff;
 }
 
-.footer__icons{
+.footer__social-icon{
     width: 16px;
     height:16px;
     padding-right: 10px;
