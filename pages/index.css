@@ -1,6 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/feinman/feinman.css);
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/footer/footer.css);
 
 .page {
   min-width: 1100px;
