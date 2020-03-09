@@ -1,3 +1,4 @@
+/* copypaste to index.css */
 .page {
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
@@ -9,6 +10,7 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* cp to header.css */
 .header {
     position: relative;
     height: 100vh;
@@ -20,13 +22,15 @@
     /* выше установили ограничения для секции */
 }
 
+/* cp to logo.css */
 .logo {
     width: 183px;
     height: 32px;
     z-index: 4;
-    
+
 }
 
+/* cp to logo_place_header */
 .logo_place_header{
     top: 30px;
     left: 64px;
@@ -34,6 +38,7 @@
     background-image: url(../images/logo.svg);
 }
 
+/* cp to header__title.css */
 .header__title{
     width:730px;
     line-height: 96px;
@@ -43,6 +48,7 @@
     z-index: 3;
 }
 
+/* cp to header__subtitle.css */
 .header__subtitle{
     width: 388px;
     position: absolute;
@@ -54,6 +60,7 @@
     z-index: 3;
 }
 
+/* cp to header__link.css */
 .header__link{
     font-size: 18px;
     text-decoration: none;
@@ -61,10 +68,12 @@
     color: #2f80ed;
 }
 
+/* cp to header__link:hover.css */
 .header__link:hover{
   opacity: .5;
 }
 
+/* cp to header__main-illustration.css */
 .header__main-illustration{
     width:765px;
     height: 608px;
@@ -77,6 +86,7 @@
 
 }
 
+/* cp to header__squre-pic.css */
 .header__squre-pic{
     width: 568px;
     height: 568px;
@@ -84,7 +94,7 @@
     position: absolute;
     top: 64px;
     right: 0;
-    z-index: 1;    
+    z-index: 1;
 }
 
 .description {
@@ -131,7 +141,7 @@
 .two-columns__span-accent{
     line-height: 34px;
     font-size: 24px;
-    font-weight:bolder;  
+    font-weight:bolder;
 }
 
 .section-title {
@@ -300,6 +310,8 @@
     justify-content: space-between;
     flex-basis: 711px;
 }
+
+/* cp to logo_place_footer */
 .logo_place_footer{
     background-image: url(../images/logo_white.svg);
 }
@@ -344,4 +356,3 @@
     height:16px;
     padding-right: 10px;
 }
-
