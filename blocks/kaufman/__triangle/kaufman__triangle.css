@@ -9,4 +9,5 @@
   background-image: url(../../../images/triangle.svg);
   right: -210px;
   z-index: 0;  /*тык*/
+  animation: rotation 20s infinite;
 }
