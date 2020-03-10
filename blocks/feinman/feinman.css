@@ -5,9 +5,8 @@
 .feinman{
   position: relative;
   height:790px;
-  margin-top: 100px;
-  padding-top: 100px;
-  margin-bottom: 0;
+  padding-top: 80px;
+  margin-bottom: 100px;
   background-color: #f2f2f2;
   background-image: url(../../images/feinman.png);
   background-size: 867px 637px;

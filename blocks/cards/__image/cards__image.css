@@ -1,0 +1,11 @@
+.card__image{
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}
+
+.card__image:nth-of-type(3) {
+  margin-right:0;
+}

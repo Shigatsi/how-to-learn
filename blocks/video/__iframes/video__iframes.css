@@ -1,0 +1,6 @@
+.video__ifremes{
+  top: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
