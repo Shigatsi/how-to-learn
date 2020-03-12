@@ -4,6 +4,7 @@
   font-size: 30px;
   color: #2f80ed;
   text-decoration: none;
+  max-height: 50px;
 }
 
 .khan__buy-link:hover{

@@ -2,6 +2,6 @@
   width: 608px;
   height: 620px;
   background-image: url(../../../images/book.jpg);
-  background: cover;
+  background-size: cover;
   margin-right: 20px;
 }

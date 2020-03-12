@@ -8,6 +8,6 @@
   background-size: contain;
   background-image: url(../../../images/triangle.svg);
   right: -210px;
-  z-index: 0;  /*тык*/
-  animation: rotation 20s infinite;
+  z-index: 0;
+  animation: rotation 20s linear infinite;
 }
