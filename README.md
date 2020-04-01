@@ -1,6 +1,6 @@
 # Научиться учиться
 
-## https://shigatsi.github.io/how-to-learn/
+### https://shigatsi.github.io/how-to-learn/
 
 Одностраничный сайт посвещен описанию подходов к обучению и лайфхаков.
 
